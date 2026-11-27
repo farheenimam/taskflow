@@ -1,3 +1,4 @@
+# game, game, game , game
 """Messages sent from the Contact page (POST /api/contact)."""
 
 MESSAGES: list[dict] = []
