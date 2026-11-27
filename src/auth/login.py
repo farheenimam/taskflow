@@ -3,8 +3,6 @@ import secrets
 
 # Demo accounts. A real product would keep hashed passwords in a database.
 USERS = {"demo@taskflow.test": "Taskflow123!", "api@taskflow.test": "Taskflow123!"}
-TOKENS: dict[str, str] = {}  # token -> email
-
 
 def login(data: dict) -> tuple[int, dict]:
     email = str(data.get("email") or "").strip().lower()
