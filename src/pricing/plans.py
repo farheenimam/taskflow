@@ -4,8 +4,7 @@ PLANS = [("Free", 0), ("Pro", 10), ("Team", 25)]  # name, price per month in US 
 YEARLY_DISCOUNT = 0.20  # paying for a year costs 20% less than twelve months
 
 FEATURES = {
-    "Free": ["Up to 3 people", "3 projects", "Today view and reminders"],
-    "Pro": ["Up to 10 people", "Unlimited projects", "Boards, due dates and recurring tasks", "Read-only boards for clients"],
+    "Free": ["Up to 3 people", "3 projects", "Today view and reminders"]
     "Team": ["Unlimited people", "Everything in Pro", "Several teams in one workspace", "Admin controls and single sign-on"],
 }
 
